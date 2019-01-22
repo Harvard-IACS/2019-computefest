@@ -1,2 +1,3 @@
-# Harvard ComputeFest 2019: Convolutional Autoencoders for Image Manipulation
+# Harvard ComputeFest 2019
+## Convolutional Autoencoders for Image Manipulation
 
