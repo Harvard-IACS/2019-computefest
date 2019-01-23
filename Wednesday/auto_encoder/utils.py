@@ -2,9 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import keras
 from keras.datasets import mnist
-import cv2
 import pandas as pd
 import imageio
+import skimage
 
 def display_manifold(decoder, height, width, base_vec, bound_x=15, bound_y=15, axis_x=0, axis_y=1, n=15,
                      desc_x = 'x', desc_y = 'y', file_out=None):
@@ -99,8 +99,8 @@ def load_mnist(target_height=64, target_width=64):
         Returns:
             The preprocessed MNIST data.
         '''
-        df = [cv2.resize(x, (target_width, target_height)) for x in df]
-        df = np.array(df) / 255.
+        df = [skimage.transform.resize(x, (target_height, target_width)).astype(np.float32) for x in df]
+        df = np.array(df)
         df = np.expand_dims(df, axis=3)
         df = np.repeat(df, axis=3, repeats=3)
         print('details: shape', df.shape, 'min', df.min(), 'max', df.max())

@@ -2,6 +2,11 @@
 ## Convolutional Autoencoders for Image Manipulation
 Pavlos Protopapas, Vincent Casser, Camilo Fosco
 
+## Accessing JupyterHub
+
+After claiming your XID key, visit the Canvas website:
+### https://canvas.harvard.edu/courses/56462/
+
 ## Preparing for the workshop
 Thanks for your interest in our workshop! We will try to provide each attendee with a cloud-based GPU instance. However, technical difficulties may occur, and we want to make sure that in this event you still have the chance to follow by running code locally on your laptop.
 
