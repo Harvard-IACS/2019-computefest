@@ -12,7 +12,7 @@ Thanks for your interest in our workshop! We will try to provide each attendee w
 
 Please prepare by setting up an environment as follows:
 
-1) Clone this repository by running `git clone git@github.com:Harvard-IACS/2019-computefest.git`
+1) Clone this repository by running `git clone https://github.com/Harvard-IACS/2019-computefest.git`
 2) Navigate to this folder `cd 2019-computefest/Wednesday/auto_encoder`
 3) Install virtualenv, if not installed right now: `pip install virtualenv`
 4) Create a new environment: `virtualenv workshop`
