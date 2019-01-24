@@ -1,4 +1,6 @@
-Harvard ComputeFest 2019
+### Harvard ComputeFest 2019
+
+#### Actionable Understanding of Customer Reviews via Classification and Summarization
 
 Pavlos Protopapas, WeiWei Pan, Spandan Madan, Srivatsan Srinivasan
 
