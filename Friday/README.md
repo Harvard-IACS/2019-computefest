@@ -11,4 +11,4 @@
 2. For the purposes of this workshop, we will use only the dataset given in this repo and not the full dataset since we are not going to train the models but rather just focus on preprocessing. The complete dataset for reviews can be found here - https://www.kaggle.com/snap/amazon-fine-food-reviews?fbclid=IwAR1IDqdxTDLMFOX1dZxd26sUpeoAx0XOIMDupaP_DMRekdr4yRsFZP6Q2AM . If you are training the model on your own machine, please use this dataset in its whole and train for reasonable results.
 
 
-More material will be posted after the workshop. Thank you!
+We will try to publish some saved models for inference after the workshop. Thank you!
