@@ -11,7 +11,7 @@
 1. Install gensim package.https://pypi.org/project/gensim/
 
 ##### PART 2 : SUMMARIZATION
-2. Ensure that you have the following packages available in your python environment - pandas, gensim, numpy, scipy, nltk, sklearn, keras, logging, re, collections, pickle, os, sys, random, tensorflow.
+2. Ensure that you have the following packages available in your python environment - pandas, gensim, numpy, scipy, nltk, sklearn, keras, torch, logging, re, collections, pickle, os, sys, random, tensorflow.
 
 3. Please download and install GLoVE embeddings - http://nlp.stanford.edu/data/glove.6B.zip. Particularly unzip the 100B file into your local directory by creating a folder called embeddings and then datasets inside that and placing it there. Effectively it will be the base (should be \2019-computefest\Friday) directory\embeddings\dataset\glove.6B.100d.txt
 
